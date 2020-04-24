@@ -1,0 +1,33 @@
+{
+  "homepage": "http://anupsv1989.github.io/ShoppingCart",
+  "name": "shoppingcart",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "next build && next export -o docs && git add . && git commit -m \"Deploy gh-pages\" && git push origin master && gh-pages -d docs -t true"
+  },
+  "dependencies": {
+    "antd": "^4.1.1",
+    "less": "^3.11.1",
+    "next": "9.3.4",
+    "next-redux-saga": "^4.1.2",
+    "next-redux-wrapper": "^5.0.0",
+    "node-sass": "^4.13.1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-redux": "^7.2.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3",
+    "webpack": "^4.42.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0",
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-less": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "redux-devtools-extension": "^2.13.8"
+  }
+}
